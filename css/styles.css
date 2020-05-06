@@ -10066,11 +10066,11 @@ img::-moz-selection {
 #mainNav {
   padding-top: 0.75rem;
   padding-bottom:0.75em;
-  background-color: transparent;
+  background-color: #212529;
   
 }
 #mainNav .navbar-toggler {
-  padding: 0.7rem;
+  padding: 0.1rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.75rem;
   color: #fff;
