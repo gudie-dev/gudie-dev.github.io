@@ -2452,7 +2452,8 @@ textarea.form-control {
   font-size: 1rem;
   line-height: 1.5;
   border-radius: 0.25rem;
-  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  transition: color 0.15s ease-in-out, 
+  background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
 @media (prefers-reduced-motion: reduce) {
   .btn {
@@ -3975,7 +3976,7 @@ input[type=button].btn-block {
 .nav-pills .show > .nav-link {
   color: #fff;
 
-  background-color:  #2ac1cf;
+  background-color:  #ffff;
 }
 
 .nav-fill .nav-item {
@@ -10066,17 +10067,17 @@ img::-moz-selection {
 #mainNav {
   padding-top: 0.75rem;
   padding-bottom:0.75em;
-  background-color: #212529;
+  background-color: rgba(0, 0, 0, 0.5);
   
 }
 #mainNav .navbar-toggler {
-  padding: 0.1rem;
+  padding: 0.15rem;
   font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   font-size: 0.75rem;
   color: #fff;
   text-transform: uppercase;
-  background-color: #212529;
-  border: 0;
+  background-color: transparent;
+  border: 0rem;
 }
 #mainNav .navbar-brand {
   color: #2ac1cf;
@@ -10504,11 +10505,11 @@ section#contact form#contactForm :-ms-input-placeholder {
 }
 header.masthead {
 	background-position: center; background-image: url("../assets/img/map-image2.png");
-	
+	border-radius:;
 }
 nav-item{
   color:#2ac1cf;
-  background: #2ac1cf;
+  background:  color: rgba(0, 0, 0, 0.5);;
 }
 page-section{
   background-color: #000;
